@@ -1,0 +1,126 @@
+.carousel-control-next, .carousel-control-prev{
+    display: none !important;
+
+}
+.carousel__h2{
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 40px
+   
+}
+.carousel__h1{
+    
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.carousel__btn{
+    font-size: 14px ;
+    color: #22b3c1;
+    background-color: transparent;
+    border: 1px solid #22b3c1;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    margin-bottom: 30px
+}
+a.carousel__btn:hover{
+    color: #22b3c1;
+    border: 1px solid #22b3c1;
+    background-color: #22b3c1;
+    color: #fff;
+}
+.carousel__header-container{
+    margin-top: 60px;
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 61px;
+    width: 100%;
+    bottom: 130px;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+.carousel-indicators [data-bs-target]::after{
+    width: 0%;
+    content: "";
+    height: 100%;
+    transition: all .5s ease;
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+}
+.carousel-indicators .active::after{
+    width: 100% ;
+    background-color: #22b3c1;
+   
+    height: 100%;
+}
+.carousel-indicators [data-bs-target]{
+    width: 200px !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    border-radius: 5px !important;
+    background-color: #fff !important;
+    opacity: 1 !important;
+    position: relative;
+}
+.carousel__header-content{
+    align-items: center;
+}
+.carousel__header i{
+    color: #22b3c1 !important;
+    font-size: 24px;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    text-align: center;
+    line-height: 58px;
+    border: 1px solid #22b3c1;
+    border-radius: 50%;
+    
+    margin-right: 20px;
+
+}
+.carousel__header span{
+    color:  rgb(145, 145, 145) !important;
+}
+.carousel__header h4{
+
+    color: #22b3c1 !important;
+}
+.carousel__header a{
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(34, 179, 193);
+    border: 1px solid rgb(34, 179, 193);
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease 0s;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+}
+.carousel__header a:hover{
+    background-color: rgb(34, 179, 193);
+    border-color: rgb(34, 179, 193);
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+}
+
+.carousel__header-content{
+
+}
